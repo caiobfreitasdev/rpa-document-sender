@@ -1,0 +1,40 @@
+# ─── Ambiente e credenciais ───────────────────────────────────────────────────
+.env
+*.env
+
+# ─── Dados sensíveis e operacionais ──────────────────────────────────────────
+# Planilhas reais, thumbnails e documentos de clientes
+# (as pastas são criadas automaticamente pelo config.py na primeira execução)
+Base/
+downloads/
+relatorios/
+
+# ─── Python ───────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+
+# ─── Build (PyInstaller) ──────────────────────────────────────────────────────
+build/
+dist/
+*.spec
+*.bak
+
+# ─── IDE ──────────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.iml
+
+# ─── Sistema operacional ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ─── Office (arquivos temporários) ───────────────────────────────────────────
+~$*.xlsx
+~$*.docx
+*.tmp
